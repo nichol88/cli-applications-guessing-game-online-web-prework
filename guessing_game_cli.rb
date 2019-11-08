@@ -4,7 +4,7 @@ def run_guessing_game
 
   puts "Guess a number!"
 
-  usr_num = gets.chomp
+  usr_num = gets
 
   if usr_num == num
     puts "You guesed the correct number!"
