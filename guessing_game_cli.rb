@@ -6,6 +6,7 @@ def run_guessing_game
 
   usr_num = gets.chomp
 
+  puts "Computer's guess: #{num}"
   puts "User guessed #{usr_num}"
 
   if usr_num == num
