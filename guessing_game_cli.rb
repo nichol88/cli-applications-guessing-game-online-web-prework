@@ -6,7 +6,7 @@ def run_guessing_game
 
   usr_num = gets.chomp
 
-  if usr_num == num
+  if usr_num.to_s == num.to_s
     puts "/You guessed the correct number!/"
   elsif usr_num == "exit"
     puts "Goodbye!"
