@@ -2,7 +2,7 @@
 def run_guessing_game
   num = rand(5) + 1
 
-  puts "Guess a number!"
+  #puts "Guess a number!"
 
   usr_num = gets.chomp
 
