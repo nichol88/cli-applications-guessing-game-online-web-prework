@@ -12,4 +12,5 @@ def run_guessing_game
     "Goodbye!"
   else
     "Sorry! The computer guesede #{num}"
+  end
 end
