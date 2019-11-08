@@ -7,7 +7,7 @@ def run_guessing_game
   usr_num = gets.chomp
 
   if usr_num == num
-    "You guesed the correct number!"
+    puts "You guesed the correct number!"
   elsif usr_num == "exit"
     puts "Goodbye!"
   else
