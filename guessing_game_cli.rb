@@ -7,10 +7,11 @@ def run_guessing_game
   usr_num = gets.chomp
 
   if usr_num == num
-    "You got it!"
+    "You guesed the correct number!"
   elsif usr_num == "exit"
     "Goodbye!"
   else
     "Sorry! The computer guesede #{num}"
   end
+
 end
